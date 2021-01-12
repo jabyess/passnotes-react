@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { Synth } from "tone";
 
 import Keyboard from "./Keyboard";
-import { keyToNote } from "./constants";
+import { keyToNote } from "./Constants";
 import { verifyPassword, play, processPerformance } from "./helpers";
 import "./Authenticate.css";
 
